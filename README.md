@@ -53,23 +53,7 @@ npm run typecheck    # Run TypeScript compiler check
 npm run test         # Run tests
 ```
 
-## 📸 Screenshots
 
-### Desktop View (1440px)
-![Desktop](./public/screenshots/desktop.png)
-
-### Tablet View (768px)
-![Tablet](./public/screenshots/tablet.png)
-
-### Mobile View (375px)
-![Mobile](./public/screenshots/mobile.png)
-
-### Minimum Width (320px)
-![320px](./public/screenshots/mobile-320.png)
-
-## 🎥 Demo Video
-
-Watch the full functionality demo: [YouTube Link](https://youtube.com/your-video-link)
 
 ## 🌐 Live Deployment
 
@@ -122,23 +106,9 @@ Visit the live application: [https://axiom-token-table.vercel.app](https://axiom
 - Optimized re-renders
 - Code splitting
 
-## 🧪 Testing
 
-```bash
-# Visual regression tests
-npm run visual:baseline  # Capture baseline
-npm run visual:compare   # Compare current vs baseline
 
-# Lighthouse CI
-npm run lighthouse
-```
 
-## 📊 Lighthouse Scores
-
-- **Performance**: 95
-- **Accessibility**: 100
-- **Best Practices**: 100
-- **SEO**: 100
 
 ## 🤝 Contributing
 
