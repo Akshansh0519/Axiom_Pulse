@@ -122,7 +122,7 @@ MIT License - see LICENSE file for details.
 
 **Akshansh**
 - GitHub: [@Akshansh0519](https://github.com/Akshansh0519)
-- Email: akshansh@example.com
+- Email: akshanshranjan007@gmail.com
 
 ## 🙏 Acknowledgments
 
