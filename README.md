@@ -40,24 +40,12 @@ yarn install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## 🏃 Available Scripts
-
-```bash
-npm run dev          # Start development server
-npm run build        # Build for production
-npm run start        # Start production server
-npm run lint         # Run ESLint
-npm run typecheck    # Run TypeScript compiler check
-npm run test         # Run tests
-```
 
 
 
 ## 🌐 Live Deployment
 
-Visit the live application: [https://axiom-token-table.vercel.app](https://axiom-token-table.vercel.app)
+Visit the live application:(https://axiomfrontend-eta.vercel.app/)
 
 ## 📁 Project Structure
 
@@ -76,22 +64,20 @@ Visit the live application: [https://axiom-token-table.vercel.app](https://axiom
 │   ├── services/            # API and WebSocket services
 │   ├── store/               # Redux store and slices
 │   └── types/               # TypeScript definitions
-├── public/                   # Static assets
-└── tests/                    # Test files
+
+
 ```
 
 ## 🎨 Key Features Implemented
 
 ### Real-time Price Updates
 - WebSocket mock with deterministic price changes
-- Smooth color transitions (green for up, red for down)
-- 600ms animation duration with automatic cleanup
+- 1000ms animation duration with automatic cleanup
 
 ### Table Features
 - **Sorting**: Click any column header to sort
-- **Filtering**: Search by token name, symbol, or address
 - **Categories**: Filter by New Pairs, Final Stretch, or Migrated
-- **Virtualization**: Smooth scrolling with 1000+ tokens
+- **Virtualization**: Smooth scrolling with 100+ tokens
 
 ### Interactions
 - **Popovers**: Advanced filters
@@ -105,9 +91,6 @@ Visit the live application: [https://axiom-token-table.vercel.app](https://axiom
 - Debounced search
 - Optimized re-renders
 - Code splitting
-
-
-
 
 
 ## 🤝 Contributing
