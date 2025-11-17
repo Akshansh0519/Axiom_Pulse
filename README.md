@@ -4,10 +4,9 @@ A pixel-perfect, high-performance replica of Axiom Trade's token discovery table
 
 ## 🚀 Features
 
-- ✨ **Real-time Updates**: Live WebSocket price updates with smooth color transitions
+- ✨ **Real-time Updates**: Live WebSocket price updates 
 - 🎨 **Pixel-Perfect Design**: ≤2px difference from original design
-- ⚡ **High Performance**: Lighthouse score ≥90, <100ms interactions
-- 📱 **Fully Responsive**: Works flawlessly down to 320px width
+- 📱 **Fully Responsive**: Works flawlessly 
 - ♿ **Accessible**: WCAG 2.1 compliant with Radix UI primitives
 - 🏗️ **Atomic Architecture**: Clean, reusable component structure
 
