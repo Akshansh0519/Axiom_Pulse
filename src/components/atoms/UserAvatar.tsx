@@ -104,13 +104,6 @@ export function UserAvatar() {
         redirect: true 
       });
       
-      // Force a full page reload to clear server-side cache
-      // This is the only reliable way with Next.js App Router + Server Components
-      if (data?.url) {
-        window.location.href = data.url;
-      } else {
-        window.location.href = '/';
-      }
     } catch (error) {
       console.error('Sign out error:', error);
       // Fallback: force reload anyway
