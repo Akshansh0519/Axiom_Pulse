@@ -12,7 +12,7 @@ interface TokensState {
     direction: SortDirection;
   };
   isConnected: boolean;
-  lastSortTime: number; // ADD THIS
+  lastSortTime: number; 
 }
 
 const initialState: TokensState = {
@@ -31,7 +31,7 @@ const initialState: TokensState = {
     direction: 'desc',
   },
   isConnected: false,
-  lastSortTime: 0, // ADD THIS
+  lastSortTime: 0, 
 };
 
 function getNestedValue(obj: any, path: string): any {

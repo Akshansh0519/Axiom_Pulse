@@ -50,6 +50,10 @@ export function TokenCard({ token }: TokenCardProps) {
     return () => clearInterval(interval);
   }, [dispatch, token.id, token.marketCap, token.volume.h24, token.priceUsd, token.priceChange]);
 
+  useEffect(()=>{
+    //flash effect on the cards when values change red and green on  low and high respectively
+    
+  })
   const formatMC = (num: number) => {
     if (num >= 1000000000) return `$${(num / 1000000000).toFixed(1)}B`;
     if (num >= 1000000) return `$${(num / 1000000).toFixed(1)}M`;
